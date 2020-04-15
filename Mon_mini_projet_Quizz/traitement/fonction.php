@@ -2,9 +2,9 @@
 
 function connexion($login,$pwd){
     $user = getData();
-    foreach ($user as $key => $user) {
-              if($user["login"] === $login && $user["password"] === $pwd){
-                  $_SESSION['user'] = $user;
+    foreach ($users as $key => $users) {
+              if($users["login"] === $login && $users["password"] === $pwd){
+                  $_SESSION['users'] = $users;
                   $_SESSION['statut'] = "login";
                   if ($user["profil"] === "admin") {
                       return "accueil";
@@ -22,7 +22,7 @@ function is_connect(){
 }
 
 function deconnexion(){
-        unset( $_SESSION['user']);
+        unset( $_SESSION['users']);
         unset( $_SESSION['statut']);
         session_destroy();
 }
