@@ -42,7 +42,7 @@
 </div>
 
 <script>
-     const inputs = document.getElementByTagName("input");
+     const inputs = document.getElementsByTagName("input");
      for(input of inputs){
          input.addEventListener("keyup",function(e){
              if(e.target.hasAttribute("error")){
@@ -55,7 +55,7 @@
 
 
 document.getElementById("form-connexion").addEventListener("submit",function(e){
-   const inputs = document.getElementByTagName("input");
+   const inputs = document.getElementsByTagName("input");
     var error = false;
    for(input of inputs){
          if(input.hasAttribute("error")){
