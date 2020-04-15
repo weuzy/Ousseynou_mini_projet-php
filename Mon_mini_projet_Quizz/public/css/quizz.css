@@ -1,0 +1,118 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    background-color: rgb(20, 46, 32);
+    height: 100px;
+
+}
+.logo
+{
+    background-image: url(../images/logo-QuizzSA.png);
+    background-size: 57px;
+    height: 90px;
+    width: 15%;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+}
+.content
+{
+    background-image: url(../images/img-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.header-text
+{
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 45%;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.container
+{
+    position: relative;
+    top: 20%;
+    left: 32%;
+    height: 60%;
+    width: 40%;
+    background-color:white;
+}
+.container-header
+{
+    height: 100px;
+    background-color: turquoise;
+}
+.title
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+}
+.input-form
+{
+    height: 60px;
+    margin: 10px 35px;
+}
+.form-control
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: oldlace;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: silver;
+}
+.error-form
+{
+    color: red;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.icon-form
+{
+    height: 35px;
+    width: 30px;
+    position: relative;
+    top: 50px;
+    left: 96%;
+}
+.icon-form-login
+{
+    background-image: url(../icones/ic-login.png);
+    background-repeat: no-repeat; 
+}
+.icon-form-pwd
+{
+    background-image: url(../icones/ic-password.png);
+    background-repeat: no-repeat; 
+}
+.btn-form
+{
+    margin-top: 40px;
+    padding: 10px;
+    color: #fff;
+    background-color: darkturquoise;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid darkturquoise;
+}
+.link-form
+{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: silver;
+    text-decoration: none;
+}
