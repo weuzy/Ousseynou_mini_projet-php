@@ -1,7 +1,10 @@
+        /* CSS général du mini projet quizz inclut toutes les pages nécéssaires  */
+    /* CSS de la page index.php */
 body
 {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header
 {
@@ -23,7 +26,7 @@ body
     background-image: url(../images/img-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 688px;
 }
 .header-text
 {
@@ -116,3 +119,445 @@ body
     color: silver;
     text-decoration: none;
 }
+        /* CSS page admin.php  */
+.wrapper
+{
+    position: relative;
+    top: 1%;
+    background-size: cover;
+    height: 675px;
+    width: 98%;
+    left: 1%;
+    background-color:rgb(233, 224, 224);
+}
+.wrapper-header
+{
+    height: 100px;
+    background-color: rgb(58, 212, 240);
+    text-align: center;
+}
+.up-title
+{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px;
+}
+.btn-position
+{
+    height: 45px;
+    width: 138px;
+    position: relative;
+    top: -80px;
+    left: 44%;
+}
+.deconnexion
+{
+    padding: 10px;
+    color: #fff;
+    background-color: darkturquoise;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid darkturquoise;
+}
+.wrapper-header a
+{
+    text-decoration: none;
+    color: #fff;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+    /* CSS menu de la page d'accueil admin.php  */
+.create
+{
+    position: relative;
+    margin-top: 3%;
+    background-size: cover;
+    height: 360px;
+    width: 18%;
+    padding: 20px;
+    left: 20%;
+    background-color:#fff;
+    border-radius: 8px;
+}
+.create-header
+{
+    height: 100px;
+    padding: 7%;
+    margin-top: -7%;
+    margin-left: -7%;
+    margin-right: -7%;
+    background-color: rgb(141, 201, 250);
+    border-radius: 8px;
+}
+.picture-form
+{
+    height: 110px;
+    width: 110px;
+    border: 1px solid rgb(105, 104, 104);
+    border-radius: 50%;
+}
+.picture
+{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    top: 8%;
+    left: 8%;
+    background-image: url(../images/he.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid none;
+    border-radius: 50%;
+}
+ul
+{
+    list-style: none;
+}
+.list a
+{
+    color: silver;
+    text-decoration: none;
+}
+.list-form
+{ 
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border-color: oldlace;
+    padding: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: silver;
+}
+.liste-icon-form
+{
+   height: 35px;
+    width: 30px;
+    position: relative;
+    top: 40px;
+    left: 86%; 
+}
+.l1
+{
+    background-image: url(../icones/ic-liste.png);
+    background-repeat: no-repeat; 
+}
+.l2
+{
+    background-image: url(../icones/ic-ajout.png);
+    background-repeat: no-repeat; 
+}
+.l3
+{
+    background-image: url(../icones/ic-liste-active.png);
+    background-repeat: no-repeat; 
+}
+.l4
+{
+    background-image: url(../icones/ic-ajout.png);
+    background-repeat: no-repeat; 
+}
+        /* CSS page Joueur.php  */
+.middle
+{
+    position: relative;
+    top: -81%;
+    background-size: cover;
+    height: 510px;
+    width: 30%;
+    padding: 20px;
+    right: -41%;
+    background-color:#fff;
+    border-radius: 8px;
+}
+.gamerscore
+{
+   height: 458px;
+   width: 96%;
+   margin-top: 2%;
+  
+   background-color: #fff;
+   background-size: cover;
+   border-style: solid;
+   border-color: rgb(143, 222, 236);
+   border-radius: 8px;
+}
+.dec
+{
+    color: #fff;
+    text-decoration: none;
+}
+p
+{
+    position: relative;
+    text-transform: uppercase;
+    top: 4px;
+    left: 23%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+}
+.suite
+{
+    height: 28px;
+    width: 90px;
+    position: relative;
+    top: 4px;
+    left: 78%;
+    padding: 2px;
+    color: red;
+    background-color: darkturquoise;
+    font-size: 18px;
+    border: 1px solid darkturquoise;
+}
+     /* CSS page Inscription.php  */
+.in
+{
+    position: relative;
+    top: -78%;
+    background-size: cover;
+    height: 440px;
+    width: 40%;
+    padding: 20px;
+    right: -41%;
+    background-color:#fff;
+    border-radius: 8px;
+}
+.side
+{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(80, 76, 76);
+}
+b
+{
+    position: relative;
+    font-size: 11px;
+    color: silver;
+}
+.divider
+{
+    width: 375px;
+    height: 2px;
+    margin-top: 3%;
+    background: silver;
+}
+.in-body
+{
+    margin-top: -20%;
+}
+.in-form
+{
+    position: relative;
+    height: 45px;
+    margin: 15px 10px; 
+   
+}
+.in-control
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(119, 114, 114);
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;   
+}
+.direct
+{
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+    color: rgb(119, 114, 114);
+}
+h5
+{
+    position: relative;
+    margin-left: 13px;
+    margin-top: 4%;
+}
+.fich
+{
+    height: 28px;
+    width: 110px;
+    position: relative;
+    top: -15px;
+    left: 33%;
+    padding: 3px;
+    color: red;
+    background-color: rgb(58, 212, 240);
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid turquoise;
+}
+.compte
+{
+    height: 28px;
+    width: 90px;
+    position: relative;
+    top: -10px;
+    left: 20%;
+    padding: 1px;
+    color: red;
+    background-color: #3ad4f0;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid turquoise;
+}
+.img-form
+{
+    position: relative;
+    height: 175px;
+    width:  175px;
+    margin-left: 68%;
+    margin-top: -9%;
+    border: 3px solid #3ad4f0;
+    border-radius: 50%;
+}
+.img
+{
+    position: relative;
+    height: 173px;
+    width: 173px;
+    background-image: url(../images/he.jpg);
+    background-repeat: no-repeat;
+    background-size: 99%;
+    border-radius: 50%;
+
+}
+    /* CSS de la page jeux.php  */ 
+
+.on
+{
+    position: relative;
+    top: -5%;
+    background-size: cover;
+    height: 640px;
+    width:50%;
+    padding: 20px;
+    right: -25%;
+    background-color:#fff;
+    border-radius: 8px;
+}
+  
+.onside
+{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(80, 76, 76);
+}
+.on-header b
+{
+    position: relative;
+    font-size: 18px;
+    font-weight: unset;
+    color: silver;
+}
+.file
+{
+    width: 500px;
+    height: 2px;
+    margin-top: 3%;
+    background: silver;
+}
+.on-body
+{
+    margin-top: -25%;
+}
+.on-form
+{
+    position: relative;
+    height: 55px;
+    margin: 20px 5px; 
+   
+}
+.on-control
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(119, 114, 114);
+    width: 50%;
+    height: 50px;
+    border-radius: 8px;   
+}
+.direct1
+{
+    position: relative;
+    top: -1px;
+    font-size: 18px;
+    font-weight: unset;
+    color: rgb(119, 114, 114);
+}
+.on-body h5
+{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.fich1
+{
+    height: 35px;
+    width: 150px;
+    position: relative;
+    top: -25px;
+    left: 32%;
+    padding: 3px;
+    color: red;
+    background-color: rgb(58, 212, 240);
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid turquoise;
+}
+.compte1
+{
+    height: 35px;
+    width: 135px;
+    position: relative;
+    top: -10px;
+    left: 20%;
+    padding: 1px;
+    color: red;
+    background-color: #3ad4f0;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid turquoise;
+}
+.img-form1
+{
+    position: relative;
+    height: 260px;
+    width:  260px;
+    margin-left: 65%;
+    margin-top: -8%;
+    border: 3px solid #3ad4f0;
+    border-radius: 50%;
+}
+.img-form1 h5
+{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: unset;
+}
+.img1
+{
+    position: relative;
+    height: 259px;
+    width:  259px;
+    background-image: url(../images/he.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+
+} 
