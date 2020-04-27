@@ -1,0 +1,40 @@
+[
+    {
+        "enonce": "Origines du COVID-19?",
+        "type": "radio",
+        "points": "3",
+        "reponses": [
+            "Italie",
+            "Chine",
+            "Usa"
+        ],
+        "reponsesVraies": "Chine"
+    },
+    {
+        "enonce": "Les langages du web?",
+        "points": "3",
+        "type": "qcm",
+        "reponses": [
+            "Php",
+            "Java",
+            "Html"
+        ],
+        "reponsesVraies": [
+            "Php",
+            "Html"
+        ]
+    },
+    {
+        "enonce": "Quelle est le premier \u00e9cole de codage gratuite au s\u00e9n\u00e9gal  ?",
+        "points": "5",
+        "type": "qcm",
+        "reponses": [
+            "SONATEL ACADEMY",
+            "SUPDECO",
+            "IAM"
+        ],
+        "reponsesVraies": [
+            "SONATEL ACADEMY"
+        ]
+    }
+]

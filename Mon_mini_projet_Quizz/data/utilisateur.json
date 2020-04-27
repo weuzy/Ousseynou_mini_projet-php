@@ -1,0 +1,45 @@
+[
+    {
+        "prenom": "admin",
+        "nom": "admin",
+        "login": "admin",
+        "password": "admin",
+        "profil": "admin",
+        "photo": ".\/data\/photos\/admin.png"
+    },
+    {
+        "prenom": "joueur",
+        "nom": "joueur",
+        "login": "joueur",
+        "password": "joueur",
+        "profil": "joueur",
+        "photo": ".\/data\/photos\/joueur.jpg",
+        "score": 3
+    },
+    {
+        "prenom": "weuz",
+        "nom": "weuz",
+        "login": "weuz",
+        "password": "weuz",
+        "profil": "joueur",
+        "photo": ".\/data\/photos\/weuz.jpg",
+        "score": 5
+    },
+    {
+        "prenom": "weuthie",
+        "nom": "weuthie",
+        "login": "weuthie",
+        "password": "weuthie",
+        "profil": "admin",
+        "photo": ".\/data\/photos\/weuthie.jpeg"
+    },
+    {
+        "prenom": "OUZIN",
+        "nom": "OUZIN",
+        "login": "OUZIN",
+        "password": "OUZIN",
+        "profil": "joueur",
+        "photo": ".\/data\/photos\/OUZIN.jpeg",
+        "score": 0
+    }
+]
