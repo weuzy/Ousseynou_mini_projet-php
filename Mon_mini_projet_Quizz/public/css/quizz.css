@@ -1,5 +1,6 @@
         /* CSS général du mini projet quizz inclut toutes les pages nécéssaires  */
     /* CSS de la page index.php */
+
 body
 {
     margin: 0px;
@@ -128,7 +129,7 @@ body
     height: 675px;
     width: 98%;
     left: 1%;
-    background-color:rgb(233, 224, 224);
+    background-color:#f0e9e9e5;
 }
 .wrapper-header
 {
@@ -149,7 +150,7 @@ body
     height: 45px;
     width: 138px;
     position: relative;
-    top: -80px;
+    top: -77px;
     left: 44%;
 }
 .deconnexion
@@ -171,15 +172,14 @@ body
     margin: 0;
     padding: 0;
 }
-    /* CSS menu de la page d'accueil admin.php  */
+    /* CSS menu de la page admin.php  */
 .create
 {
     position: relative;
-    margin-top: 3%;
+    margin-top: 1%;
     background-size: cover;
     height: 360px;
-    width: 18%;
-    padding: 20px;
+    width: 20rem;
     left: 20%;
     background-color:#fff;
     border-radius: 8px;
@@ -188,11 +188,9 @@ body
 {
     height: 100px;
     padding: 7%;
-    margin-top: -7%;
-    margin-left: -7%;
-    margin-right: -7%;
-    background-color: rgb(141, 201, 250);
-    border-radius: 8px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: start;
 }
 .picture-form
 {
@@ -208,8 +206,6 @@ body
     width: 90px;
     top: 8%;
     left: 8%;
-    background-image: url(../images/he.jpg);
-    background-repeat: no-repeat;
     background-size: 100%;
     border: 1px solid none;
     border-radius: 50%;
@@ -218,10 +214,12 @@ ul
 {
     list-style: none;
 }
-.list a
+.list
 {
-    color: silver;
-    text-decoration: none;
+    width: 100%;
+}
+li a{
+    color:gray !important
 }
 .list-form
 { 
@@ -236,42 +234,25 @@ ul
 }
 .liste-icon-form
 {
-   height: 35px;
-    width: 30px;
-    position: relative;
-    top: 40px;
-    left: 86%; 
+    padding:1rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+    text-align: left;
 }
-.l1
-{
-    background-image: url(../icones/ic-liste.png);
-    background-repeat: no-repeat; 
-}
-.l2
-{
-    background-image: url(../icones/ic-ajout.png);
-    background-repeat: no-repeat; 
-}
-.l3
-{
-    background-image: url(../icones/ic-liste-active.png);
-    background-repeat: no-repeat; 
-}
-.l4
-{
-    background-image: url(../icones/ic-ajout.png);
-    background-repeat: no-repeat; 
+.-active{
+    border-left: solid 5px green;
 }
         /* CSS page Joueur.php  */
 .middle
 {
     position: relative;
-    top: -81%;
+    top: 2%;
     background-size: cover;
     height: 510px;
     width: 30%;
     padding: 20px;
-    right: -41%;
+    right: -43%;
     background-color:#fff;
     border-radius: 8px;
 }
@@ -280,7 +261,6 @@ ul
    height: 458px;
    width: 96%;
    margin-top: 2%;
-  
    background-color: #fff;
    background-size: cover;
    border-style: solid;
@@ -292,7 +272,7 @@ ul
     color: #fff;
     text-decoration: none;
 }
-p
+P
 {
     position: relative;
     text-transform: uppercase;
@@ -303,29 +283,16 @@ p
     font-size: 18px;
     color: grey;
 }
-.suite
-{
-    height: 28px;
-    width: 90px;
-    position: relative;
-    top: 4px;
-    left: 78%;
-    padding: 2px;
-    color: red;
-    background-color: darkturquoise;
-    font-size: 18px;
-    border: 1px solid darkturquoise;
-}
      /* CSS page Inscription.php  */
 .in
 {
     position: relative;
-    top: -78%;
+    top: 1%;
     background-size: cover;
-    height: 440px;
+    height: 490px;
     width: 40%;
-    padding: 20px;
-    right: -41%;
+    padding: 90px;
+    right: -43%;
     background-color:#fff;
     border-radius: 8px;
 }
@@ -354,26 +321,20 @@ b
 {
     margin-top: -20%;
 }
-.in-form
-{
-    position: relative;
-    height: 45px;
-    margin: 15px 10px; 
-   
-}
+
 .in-control
 {
     font-weight: bold;
     font-size: 20px;
     color: rgb(119, 114, 114);
     width: 50%;
-    height: 40px;
+    height: 90%;
     border-radius: 8px;   
 }
 .direct
 {
     position: relative;
-    top: -2px;
+    top: -px;
     font-size: 12px;
     color: rgb(119, 114, 114);
 }
@@ -405,7 +366,7 @@ h5
     top: -10px;
     left: 20%;
     padding: 1px;
-    color: red;
+    color: #fff;
     background-color: #3ad4f0;
     font-size: 13px;
     font-weight: bold;
@@ -421,143 +382,175 @@ h5
     border: 3px solid #3ad4f0;
     border-radius: 50%;
 }
-.img
+#img
 {
     position: relative;
     height: 173px;
     width: 173px;
-    background-image: url(../images/he.jpg);
-    background-repeat: no-repeat;
     background-size: 99%;
     border-radius: 50%;
 
 }
-    /* CSS de la page jeux.php  */ 
-
-.on
+    /* CSS de la page jeux.php  */
+.interface
 {
     position: relative;
-    top: -5%;
+    margin-top: 1%;
     background-size: cover;
-    height: 640px;
-    width:50%;
+    height: 32rem;
+    width: 95.5%;
     padding: 20px;
-    right: -25%;
+    left: 1%;
+    right: 1%;
     background-color:#fff;
     border-radius: 8px;
 }
-  
-.onside
+.ask
 {
-    position: relative;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 30px;
-    color: rgb(80, 76, 76);
-}
-.on-header b
-{
-    position: relative;
-    font-size: 18px;
-    font-weight: unset;
-    color: silver;
-}
-.file
-{
-    width: 500px;
-    height: 2px;
-    margin-top: 3%;
-    background: silver;
-}
-.on-body
-{
-    margin-top: -25%;
-}
-.on-form
-{
-    position: relative;
-    height: 55px;
-    margin: 20px 5px; 
-   
-}
-.on-control
-{
-    font-weight: bold;
-    font-size: 25px;
-    color: rgb(119, 114, 114);
-    width: 50%;
-    height: 50px;
-    border-radius: 8px;   
-}
-.direct1
-{
-    position: relative;
-    top: -1px;
-    font-size: 18px;
-    font-weight: unset;
-    color: rgb(119, 114, 114);
-}
-.on-body h5
-{
-    position: relative;
-    margin-left: 15px;
-    margin-top: 5%;
-    font-size: 20px;
-}
-.fich1
-{
-    height: 35px;
-    width: 150px;
-    position: relative;
-    top: -25px;
-    left: 32%;
-    padding: 3px;
-    color: red;
-    background-color: rgb(58, 212, 240);
-    font-size: 17px;
-    font-weight: bold;
-    border: 1px solid turquoise;
-}
-.compte1
-{
-    height: 35px;
-    width: 135px;
-    position: relative;
-    top: -10px;
-    left: 20%;
-    padding: 1px;
-    color: red;
-    background-color: #3ad4f0;
-    font-size: 20px;
-    font-weight: bold;
-    border: 1px solid turquoise;
-}
-.img-form1
-{
-    position: relative;
-    height: 260px;
-    width:  260px;
-    margin-left: 65%;
-    margin-top: -8%;
-    border: 3px solid #3ad4f0;
-    border-radius: 50%;
-}
-.img-form1 h5
-{
-    position: relative;
-    margin-top: 5%;
-    margin-left: 20%;
-    font-size: 20px;
-    font-weight: unset;
-}
-.img1
-{
-    position: relative;
-    height: 259px;
-    width:  259px;
-    background-image: url(../images/he.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-radius: 50%;
-
+    height: 33rem;
+    width: 58rem;
+    margin-top: -.5%;
+    background-color: #fff;
+    background-size: cover;
+    border-style: solid;
+    border-color: rgb(143, 222, 236);
+    border-radius: 8px;
 } 
+.ask-side
+{
+    position: relative;
+    width: 98%;
+    height: 25%;
+    margin-top: 1%;
+    left: 1%;
+    right: 1%;
+    background-color: rgb(231, 230, 230);
+    border-style: outset;
+    border-radius: rgb(107, 149, 216);
+}    
+h4
+{
+    font-size: 2rem;
+    padding: 30px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+.ask-value
+{
+    position: relative;
+    padding: 1rem;
+    width: 2rem;
+    height: .5rem;
+    top: 1rem;
+    float: right;
+    right: 1%;
+    background-color: rgb(231, 230, 230);
+    border: unset rgb(107, 149, 216);
+}
+.score
+{
+    position: absolute;
+    margin-top: -15rem;
+    background-size: cover;
+    height: 25rem;
+    width: 17%;
+    padding: 13px;
+    left: 75rem;
+    background-color:#fff;
+    box-shadow:  4px  3px 4px 2px grey;
+    border-radius: 8px;  
+}
+#questions
+{
+    position: relative;
+    background-size: cover;
+    height: 33rem;
+    width: 45rem;
+    padding: 20px;
+    right: -43%;
+    background-color:#fff;
+    border-radius: 8px;
+}
+.questions-header
+{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(65, 206, 231);
+}
+.questions-border
+{
+    height: 458px;
+    width: 96%;
+    margin-top: 2%;
+    background-color: #fff;
+    background-size: cover;
+    border-style: solid;
+    border-color: rgb(143, 222, 236);
+    border-radius: 8px;
+}
+.qst
+{
+    height: 6rem;
+    margin: 10px 35px; 
+}
+.qst input
+{
+    width: 75%;
+    height: 5rem;
+    background: rgb(230, 230, 230);
+}
+.point
+{
+    height: 3rem;
+    margin: 10px 35px; 
+} 
+.point input
+{
+    height: 2rem;
+    width: 10%;
+    background: rgb(230, 230, 230);
+}
+#plus
+{
+    position: relative;
+    margin-bottom: 0px;
+    width: 3rem;
+    height: 2.5rem;
+    top: .5rem;
+    margin-top: 0px;
+    border: none;
+    background-color: rgb(96, 169, 230);
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase
+}
+.erg
+{
+   
+    top: .1rem;
+    left: 80%;
+    padding: 12px;
+    background-color:  rgb(116, 196, 243);
+    font-size: 19px;
+    font-weight: lighter;
+    color: #fff;
+    text-transform: capitalize;
+}
+.croix
+{
+    position: relative;
+    margin-bottom: 0px;
+    width: 3rem;
+    height: 2.5rem;
+    top: .5rem;
+    margin-top: 0px;
+    background-color: red;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase
+}
