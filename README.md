@@ -14,4 +14,4 @@ Dans ce projet on a combiné pas mal de langage de programmation à savoir le HT
 fichier JSON comme base de données.
 
 voici le lien GitHub du projet: https://github.com/weuzy/Ousseynou_mini_projet-php.git
-voici le lien d'hébergement du projet:  https://19weuzy.alwaysdata.net 
+voici le lien d'hébergement du projet:  https://weuzy.alwaysdata.net 
