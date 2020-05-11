@@ -1,5 +1,5 @@
 # Ousseynou_mini_projet_quizz-php,
-réalisé par OUSSEYNOU DIOP, apprenant à la SONATEL/ACADEMY; cohorte 3 pour la session 2019/2020.
+réalisé par OUSSEYNOU DIOP, apprenant à la SONATEL/ACADEMY? DAKAR-SENEGAL; cohorte 3 pour la session 2019/2020.
 
 Le projet "LE PLAISIR DE JOUER" est une application de jeu de quizz qui contient beaucoup de fonctionnalités à savoir:
 si vous aimez jouer une partie de quizz vous pouvez vous renseigner au niveau du lien s'inscrire pour jouer;
@@ -14,4 +14,4 @@ Dans ce projet on a combiné pas mal de langage de programmation à savoir le HT
 fichier JSON comme base de données.
 
 voici le lien GitHub du projet: https://github.com/weuzy/Ousseynou_mini_projet-php.git
-voici le lien d'hébergement du projet:  https://19weuzy.alwaysdata.net
+voici le lien d'hébergement du projet:  https://19weuzy.alwaysdata.net 
